@@ -20,6 +20,8 @@ namespace CoreEscuela.Entidades
             Ciudad = ciudad;
         }
 
+        public Curso[] Cursos { get; set; }
+
         public override string ToString()
         {
             return $"Nombre: \"{Nombre}\", Tipo: {TipoEscuela} {System.Environment.NewLine}País: {Pais}, Ciudad: {Ciudad}";
